@@ -1,0 +1,286 @@
+    1  cd Téléchargements/
+    2  ls
+    3  sudo apt install ./zoom_amd64.deb 
+    4  su aimssn
+    5  echo "hello, world"
+    6  git clone
+    7  echo"hello,world"
+    8  echo "hello, word"
+    9  git clone https:\\github.com/gabaye/friendly-shell-lesson
+   10  git clone https://github.com/gabayae/friendly-shell-lesson.git shell-lesson
+   11  pwd
+   12  ls
+   13  whoami
+   14  ls
+   15  tree
+   16  cd Téléchargements/
+   17  ls
+   18  cd ..
+   19  mkdir greg1
+   20  cd Téléchargements/
+   21  mkdir greg1
+   22  rmdir gre1
+   23  rmdir greg1
+   24  touch greg2
+   25  ls
+   26  mkdir D1
+   27  cd Téléchargements/
+   28  mkdir D2
+   29  cd Téléchargements/
+   30  cd Téléchargements/cd
+   31  mkdir D3
+   32  cd D2
+   33  ls
+   34  touch F1.txt F2 F3
+   35  ls
+   36  cd ..
+   37  cd D3
+   38  mkdir D4  
+   39  touch F4
+   40  ls
+   41  cd..
+   42  cd ..
+   43  cd D2
+   44  gedit F1.txt
+   45  history
+   46  echo " bonjour tout le monde "
+   47  cd Download
+   48  ls
+   49  cd Musique
+   50  mkdir Olle1
+   51  cd Olle1
+   52  touch fichier1.txt
+   53  touch fichier2.txt
+   54  touch fichier3.txt
+   55  gedit fichier3.txt
+   56  python3
+   57  mdkdir python-try
+   58  cd ..
+   59  ls
+   60  mkdir python-try
+   61  cd python-try
+   62  touch first-python.py
+   63  gedit first-python.py
+   64  python3
+   65  git--help
+   66  git --help
+   67  mkdir simpleatats
+   68  cd simpleatats
+   69  ls
+   70  git init
+   71  ls
+   72  ls -a
+   73  ls -A
+   74  cd .git
+   75  ls -A
+   76  cd ..
+   77  nano description
+   78  cd .git
+   79  ls
+   80  gedit description 
+   81  cd ..
+   82  git status
+   83  git add Readme.md
+   84  git status
+   85  git add .
+   86  git status
+   87  ls
+   88  ls -l
+   89  ls -L
+   90  ls -d
+   91  help
+   92  mkdir Fichier1 Fichier2 Fichier3 Fichier4 Fichier5
+   93  ls
+   94  cp -r Fichier2 Fichier3 Fichier4 Fichier5 Fichier1
+   95  cd Fichier1
+   96  ls
+   97  cp -i Fichier2 Fichier3 Fichier4 Fichier5 Fichier1
+   98  ls /
+   99  ls /home/
+  100  ls/etc
+  101  ls /etc
+  102  nano /etc/host
+  103  ls /etc
+  104  ls /bin
+  105  cd ..
+  106  mkdir Fichier6
+  107  ls
+  108  mv -b Fichier1 Fichier2 Fichier2 Fichier3 Fichier4 Fichier5 Fichier6
+  109  mv -b Fichier6 Fichier1 Fichier2 Fichier3 Fichier4 Fichier5
+  110  mv Fichier1 Fichier6
+  111  cd Fichier6
+  112  ls
+  113  Jupyter notebook
+  114  jupyter notebook
+  115  ls
+  116  #question 0
+  117  #question 0 create a directory
+  118  mkdir unix
+  119  # question 0
+  120  mkdir directory
+  121  #question 0
+  122  mkdir UNIX
+  123  cd UNIX
+  124  touch foot.txt
+  125  ls
+  126  #Question 0
+  127  mkdir UNIX
+  128  ls
+  129  cd UNIX 
+  130  touch foo.txt
+  131  ls
+  132  cp foo.txt foo2.txt
+  133  ls
+  134  mkdir data
+  135  ls
+  136  mv data/foo2.txt data
+  137  mkdir UNIX
+  138  cd UNIX
+  139  touch too.txt
+  140  ls
+  141  cp foo.txt foo-copy.txt
+  142  #creation d'un dossier
+  143  mkdir UNIX
+  144  cd UNIX
+  145  touch foo.txt
+  146  #copie
+  147  cp foo.txt foo2.txt
+  148  ls
+  149  #renommination du fichier foo.txt en foo2.txt
+  150  mv foo-copy.txt foo2.txt
+  151  #creation de dossier unix
+  152  mkdir unix
+  153  creation du fichier foo.txt
+  154  cd unix
+  155  touch foo.txt
+  156  ls
+  157  #creation dand unix du fichier too2.txt
+  158  cp foo.txt foo-copy.txt
+  159  ls
+  160  mv foo-copy.txt foo2.txt
+  161  ls
+  162  #inside the directory called unix and create a subdirectory
+  163  mkdir data
+  164  cd
+  165  ls
+  166  cd unix
+  167  mv foo2.txt/home/students-asn50/unix/data
+  168  ls
+  169  cd ..
+  170  cd new 
+  171  ls
+  172  #delete the file
+  173  rm foo-old.txt
+  174  mv foo2.txt/home/students-asn50/unix/foo-old.txt
+  175  mkdir unix
+  176  cd unix
+  177  touch foo.txt
+  178  ls
+  179  cp foo.txt foo-copy.txt
+  180  ls
+  181  mv foo-copy.txt foo2.txt
+  182  ls
+  183  mkdir data
+  184  cd
+  185  ls
+  186  cd unix
+  187  ls
+  188  cd data
+  189  ls
+  190  cd ..
+  191  mv foo2.txt/home/students-asn50/unix/new/
+  192  mkdir unix
+  193  cd unix
+  194  touch foo.txt
+  195  cp foo.txt foo-copy.txt
+  196  ls
+  197  #creation d'un fichier denomme unix
+  198  mkdir unix
+  199  #creons dans ce dossier un fichier denomme foo.txt
+  200  cd unix
+  201  touch foo.txt
+  202  #copions le fichier foo.txt dans foo-copy
+  203  cp foo.txt foo-copy.txt
+  204  ls
+  205  #renommons le fichier foo-copy a foo2.txt
+  206  mv foo-copy.txt foo2.txt
+  207  ls
+  208  #ceation dans unix d'un sous dossier denomme data
+  209  mkdir data
+  210  cd
+  211  ls
+  212  cd unix
+  213  mv foo2.txt/home/students-asn50/unix/data/
+  214  mkdir unix 
+  215  mkdir
+  216  mkdir unix
+  217  cd unix
+  218  touch foo.txt
+  219  cp foo.txt foo-copy.txt
+  220  ls
+  221  mv foo-copy.txt foo2.txt
+  222  ls
+  223  mkdir data
+  224  cd
+  225  ls
+  226  cd unix
+  227  mv foo2.txt/home/students-asn50/unix/data/
+  228  cd data
+  229  ls
+  230  mv foo2.txt/home/students-asn50/unix/data
+  231  cd ..
+  232  mv foo2.txt/home/students-asn50/unix/data
+  233  ls
+  234  mv foo2.txt /home/students-asn50/unix/data
+  235  cd data
+  236  ls
+  237  cd data
+  238  cd ..
+  239  mkdir new
+  240  cd data
+  241  cd..
+  242  ls
+  243  rm foo-old.txt
+  244  mv foo2.txt /home/students-asn50/unix/data
+  245  cd data
+  246  mkdir unix 
+  247  cd unix
+  248  touch foo.txt
+  249  cp foo.txt foo-copy.txt
+  250  ls
+  251  mv foo-copy.txt foo2.txt
+  252  ls
+  253  mkdir data 
+  254  cd
+  255  ls
+  256  cd unix
+  257  mv foo2.txt /home/students-asn50/unix/data
+  258  ls
+  259  cd data
+  260  ls
+  261  cd ..
+  262  mkdir new
+  263  cd data
+  264  mv foo2.txt /home/students-asn50/unix/new
+  265  cd..
+  266  cd ..
+  267  ls
+  268  cd new
+  269  ls
+  270  mv foo2.txt /home/students-asn50/unixfoo-old.txt
+  271  ls
+  272  cd ..
+  273  ls
+  274  rm foo-old.txt
+  275  touch foo-old.txt
+  276  rm foo-old.txt
+  277  ls
+  278  rmdir new
+  279  ls
+  280  history >>exo1.txt
+  281  ls -a
+  282  ls
+  283  ls -R
+  284  cd unix
+  285  wc -l exo1.txt
+  286  history >> exo2.txt
